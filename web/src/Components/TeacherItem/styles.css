@@ -76,6 +76,10 @@
 }
 
 @media (min-width: 700px) {
+    .techer-item:first-child {
+        margin-top: 10rem;
+    }
+    
     .techer-item header,
     .techer-item footer {
         padding: 3.2rem;
