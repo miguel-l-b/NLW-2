@@ -1,8 +1,7 @@
 import React from 'react'
 
 import PageHeader from '../../Components/PageHeader'
-
-import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
+import TeacherItem from '../../Components/TeacherItem'
 
 import './styles.css'
 
@@ -29,29 +28,7 @@ function TeacherList() {
             </PageHeader>
 
             <main>
-                <article className="techer-item">
-                    <header>
-                        <img src="https://avatars2.githubusercontent.com/u/59874694?s=460&u=4d7470b960cf4ffb15403de6a75bc79cd54e4452&v=4" alt="Avatar"/>
-                        <div>
-                            <strong>Nome Proffy</strong>
-                            <span>Matéria</span>
-                        </div>
-                    </header>
-                    <p>
-                        Descrição do professor! descri descri descri
-                    </p>
-
-                    <footer>
-                        <p>
-                            Preço/Hora
-                            <strong>R$ 30,00</strong>
-                        </p>
-                        <button type="button">
-                            <img src={whatsappIcon} alt="whatsapp"/>
-                            Entrar em contato
-                        </button>
-                    </footer>
-                </article>
+                <TeacherItem />
             </main>
         </div>
     )
