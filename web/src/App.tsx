@@ -1,7 +1,15 @@
 import React from 'react'
 
+import Landing from './pages/Landing'
+
+import './assets/styles/global.css'
+
 function App() {
-  return <h1>helow world</h1>
+  return (
+    <>
+    <Landing />
+    </>
+  )
 }
 
-export default App;
+export default App
