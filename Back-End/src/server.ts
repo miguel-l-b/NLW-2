@@ -1,10 +1,14 @@
 import 'dotenv/config'
-import express, { json } from 'express'
-import routes from './Routes'
+
+import express from 'express'
+import cors from 'cors'
+
+import routes from './routes'
 
 const app = express()
 
-app.use(json())
+app.use(express.json())
+app.use(cors())
 
 app.use(routes)
 
