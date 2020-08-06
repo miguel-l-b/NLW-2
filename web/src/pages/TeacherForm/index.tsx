@@ -112,12 +112,13 @@ const TeacherForm: React.FC = () => {
               value={subject}
               onChange={(e) => { setSubject(e.target.value) }}
               options={[
-                { value: 'C', label: 'C' },
-                { value: 'COBOL', label: 'COBOL' },
-                { value: 'Python', label: 'Python' },
-                { value: 'JavaScript', label: 'JavaScript' },
-                { value: 'TypeScript', label: 'TypeScript' },
-                { value: 'Java', label: 'Java' },
+                { value: 'Matemática', label: 'Matemática' },
+                { value: 'Portugês', label: 'Portugês' },
+                { value: 'Biologia', label: 'Biologia' },
+                { value: 'Química', label: 'Química' },
+                { value: 'Física', label: 'Física' },
+                { value: 'História', label: 'História' },
+                { value: 'Geografia', label: 'Geografia' },
               ]}
             />
             <Input 
