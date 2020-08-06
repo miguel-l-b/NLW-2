@@ -2,8 +2,8 @@ import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 
 import Landing from './pages/Landing'
-import TecherList from './pages/TecherList'
-import TecherForm from './pages/TecherForm'
+import TecherList from './pages/TeacherList'
+import TecherForm from './pages/TeacherForm'
 
 function Routes() {
     return (
