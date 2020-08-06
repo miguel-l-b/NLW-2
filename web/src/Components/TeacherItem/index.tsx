@@ -6,7 +6,7 @@ import './styles.css'
 
 function TeacherItem() {
     return(
-        <article className="techer-item">
+        <article className="teacher-item">
             <header>
                 <img src="https://avatars2.githubusercontent.com/u/59874694?s=460&u=4d7470b960cf4ffb15403de6a75bc79cd54e4452&v=4" alt="Avatar"/>
                 <div>
